@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <title>Contato AdoteAqui!</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <h1 class="menu1">AdoteAqui!</h1>
+            <!--<a href="#">Pets Resilia</a> ><!-->
+
+            <nav>
+                <ul>
+                    <li><a href="adote_aqui.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        
+        <form>
+
+            <h1 class="contato-titulo">Quer adotar ou apadrinhar um bichinho?</h1> 
+            <h3 class="contato-subtitulo">Preencha o formulário que nós entraremos em contato &#128062;<h3>
+
+            <label for="nomeesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeesobrenome" class="input-form" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-form" required>
+
+            <label for="celular">Celular</label>
+            <input type="text" id="celular" class="input-form" required>
+
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" class="input-form" required>
+
+            <label for="estado">Estado</label>
+            <input type="text" id="estado" class="input-form" required>
+
+            <di>
+                <p>Eu quero:</p>
+                <label for="tirar-duvida"><input type="radio" name="escolha" value="tirar-duvida" id="tirar-duvida">Tirar dúvida</label>
+                
+
+                <label for="adotar"><input type="radio" name="escolha" value="adotar" id="adotar">Adotar</label>
+                
+
+                <label for="apadrinhar"><input type="radio" name="escolha" value="apadrinhar" id="apadrinhar">Apadrinhar</label>
+                
+            </di>
+
+            <label for="mensagem">Escreva sua mensagem!</label>
+            <textarea id="mensagem" cols="50" rows="10" class="input-form" required></textarea>
+
+
+            <button class="botao" type="button">Enviar</button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+        <div>
+            <a class="footer-icon" href="https://twitter.com"><img src="imagens/twitter.svg" width="30" height="30"> </a>
+            <a class="footer-icon" href="https://facebook.com"><img src="imagens/facebook.svg" width="30" height="30"></a>
+            <a class="footer-icon" href="https://youtube.com"><img src="imagens/youtube.svg" width="30" height="30"></a>
+            <a class="footer-icon" href="https://instagram.com"><img src="imagens/instagram.svg" width="30" height="30"></a>
+        </div>
+        <div class="footer-texto">
+            <p>AdoteAqui!</p>
+            <p>Em parceria com a <span class="resilia">Resilia Educação</span></p>
+            <p>&copy;Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
