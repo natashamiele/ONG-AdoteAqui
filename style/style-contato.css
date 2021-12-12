@@ -1,0 +1,194 @@
+body {
+    background-color: #e6e6e6;
+    background-image: url(../imagens/paws.png);
+    background-size: cover; 
+}
+
+header {
+    background: #444444;
+    padding: 20px 0;
+}
+
+.container {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.logo a {
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: pink;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #7fffd4;
+    text-decoration: underline;
+}
+
+form {
+    margin: 100px 75px 100px;
+    width: 500px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 40px -4px #ffc0cb;
+    padding: 25px;
+}
+
+.contato-titulo {
+    font-family: 'Archivo', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
+
+.contato-subtitulo {
+    font-family: 'Archivo', sans-serif;
+    font-size: 18px;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+form label, form p {
+    font-family: 'Archivo', sans-serif;
+    display: block;
+    font-size: 18px;
+    margin: 40px 10px 10px;
+    color: #808080;
+}
+
+.input-form {
+    font-family: 'Archivo', sans-serif;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #dffff4;
+    box-sizing: border-box;
+    border-color: transparent;
+}
+
+button {
+    text-decoration: none;
+}
+
+.botao {
+    margin: auto;
+    display: block;
+    width: 100px;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: "Archivo", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: pink;
+    color: #0B0B0B;
+    border-style: none;
+    font-weight: 600;
+}
+
+.botao:hover  {
+    cursor: pointer;
+    background-color: #dffff4;
+    border-color: #7fffd4;
+    border-width: 2px;
+    border-style: solid;
+    color: #7fffd4
+}
+
+footer {
+    background: #444444;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Archivo', sans-serif; 
+}
+
+.resilia, .social {
+    color: #ffd000; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-decoration: none;  
+}
+
+.resilia:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.social:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.footer-icon {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.footer-texto {
+    margin: 15px;
+    line-height: 1.3;
+}
+
+
+@media (max-width: 900px) {
+   .logo {
+        display: flex;
+        margin: 0 10px;
+        justify-content: center;
+    } 
+
+    .container {
+        width: 100%;
+    }
+
+    nav {
+    top: 10px;
+    text-align: center;
+    margin: 0 10px;
+    line-height: normal;
+    position: relative;
+    }
+
+    main, form {
+        max-width: 80%;
+        margin: 50px auto;
+    }
+
+    .input-form{
+        width: 100%;
+    }
+}

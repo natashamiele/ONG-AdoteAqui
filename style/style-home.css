@@ -12,32 +12,32 @@ header {
 
 .container {
     position: relative;
-    width: 940px;
+    width: 60%;
     margin: 0 auto;
-    
-  
 }
 
-.menu1 {
+.logo a {
     font-family: 'Archivo', sans-serif;
     font-size: 30px;
     color: #ffffff;
     font-weight: bold;
-    
+}
+
+.logo a:hover{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 nav {
     position: absolute;
     top: 6px;
     right: 0;
-
 }
 
 
 nav li {
     display: inline;
     margin: 0 0 0 20px;
-
 }
 
 nav a {
@@ -47,13 +47,11 @@ nav a {
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
-
 }
 
 nav a:hover {
     color: #7fffd4;
     text-decoration: underline;
-
 }
 
 
@@ -65,8 +63,6 @@ nav a:hover {
     padding-top: 5%;
     padding-bottom: 2%;
     color: #c499a1;
-    
-
 }
 
 .subtexto {
@@ -75,12 +71,9 @@ nav a:hover {
     text-align: center;
     padding-bottom: 35px;
     line-height: 1.5;
-
-
 }
 
 .click-adote  {
-
     font-weight: bold;
     font-size: 24px;
     font-family: 'Archivo', sans-serif;
@@ -89,17 +82,12 @@ nav a:hover {
     margin: 0 auto 0;
     text-decoration: none;
     background-color: #7fffd4;
-
-
 }
 
-.click-adote:hover {
-    text-decoration: underline;
-    color: #7fffd4;
-
-
+.click-adote a:hover {
+    text-decoration: none;
+    color: #444444; 
 }
-
 
 
 .banner {
@@ -119,8 +107,6 @@ nav a:hover {
     margin: 0 auto 0;
     background-color: pink;
     font-weight: 570;
-    
-
 }
 
 
@@ -141,7 +127,6 @@ nav a:hover {
     margin: 25px;
     padding: 18px;
     box-shadow: 0px 0px 40px -4px #ffc0cb;
-
 }
 
 
@@ -149,15 +134,14 @@ nav a:hover {
     width: 175px;
     height: 175px;
     display: block;
-    object-fit: cover;
-    
+    object-fit: cover; 
+    border-radius: 32px;
 }
 
 .nome-pets {
     margin: 5px;
     font-family: 'Archivo', sans-serif;
     font-weight: bold;
-
 }
 
 .idade-pets {
@@ -165,8 +149,6 @@ nav a:hover {
     font-family: 'Archivo', sans-serif;
     font-size: small;
     padding-bottom: 10px;
-    
-
 }
 
 a {
@@ -177,7 +159,6 @@ a {
 a:hover {
     color: #7fffd4;
     text-decoration: underline;
-
 }
 
 
@@ -192,11 +173,8 @@ a:hover {
     background-color: #444444;
     color: pink;
     border-style: none;
-    font-weight: 500;
-    
-    
-    
-    }
+    font-weight: 500; 
+}
     
 .botao-adote:hover  {
     cursor: pointer;
@@ -204,88 +182,9 @@ a:hover {
     border-color: #7fffd4;
     border-width: 2px;
     border-style: solid;
-    color: #7fffd4
-    
+    color: #7fffd4 
 }
 
-.texto-sobre {
-    font-family: 'Archivo', sans-serif;
-    font-size: 18px;
-    font-weight: 400px;
-    text-align: center;
-    width: 50%;
-    text-align: center;
-    width: 510px;
-    margin: 70px auto;
-    border-radius: 32px;
-    box-shadow: 0px 0px 40px -4px rgb(255, 192, 203);
-    padding: 48px 40px 48px 40px;
-    line-height: 2;
-    background: #c0c0c0;
-
-}
-
-
-
-   
-
-form {
-
-    margin: 100px 75px 100px;
-    width: 500px;
-    border-radius: 32px;
-    box-shadow: 0px 0px 40px -4px #ffc0cb;
-    padding: 25px;
-
-}
-
-.contato-titulo {
-    font-family: 'Archivo', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 25px;
-    text-align: center;
-
-}
-
-.contato-subtitulo {
-    font-family: 'Archivo', sans-serif;
-    font-size: 18px;
-    padding-bottom: 1%;
-    text-align: center;
-
-
-}
-
-form label, form p {
-    font-family: 'Archivo', sans-serif;
-    display: block;
-    font-size: 18px;
-    margin: 40px 10px 10px;
-    color: #808080;
-
-}
-
-
-
-.input-form {
-
-    font-family: 'Archivo', sans-serif;
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-    border-radius: 10px;
-    background-color: #dffff4;
-    box-sizing: border-box;
-    border-color: transparent;
-
-}
-
-button {
-    text-decoration: none;
-}
-  
 
 .botao {
     margin: auto;
@@ -300,7 +199,6 @@ button {
     color: #0B0B0B;
     border-style: none;
     font-weight: 600;
-
 }
 
 .botao:hover  {
@@ -310,46 +208,71 @@ button {
     border-width: 2px;
     border-style: solid;
     color: #7fffd4
-
 }
 
-
-@media (max-width: 700px) {
-    h1 {
-        color: purple;
-
-
-
-
-    }
-}
 
 footer {
     background: #444444;
     padding: 20px 0;
     text-align: center;
     font-family: 'Archivo', sans-serif; 
-
 }
 
-.resilia {
-    color: #ffd000;
-
+.resilia, .social {
+    color: #ffd000; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-decoration: none;  
 }
 
-.resilia:hover {
-    color: #0B0B0B;
+.resilia:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
+}
 
+.social:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
 }
 
 .footer-icon {
     margin: 5px;
     text-decoration: none;
-
 }
-
 
 .footer-texto {
     margin: 15px;
+    line-height: 1.3;
+}
+
+
+@media (max-width: 900px) {
+    .logo {
+        display: flex;
+        margin: 0 10px;
+        justify-content: center;
+    } 
+
+    .container {
+        width: 100%;
+    }
+
+    nav {
+    top: 10px;
+    text-align: center;
+    margin: 0 10px;
+    line-height: normal;
+    position: relative;
+    }
+    
+    .banner {
+        width: 100%;
+    }
+
 
 }
